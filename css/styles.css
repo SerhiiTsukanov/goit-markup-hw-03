@@ -172,6 +172,10 @@ body {
   display: flex;
 }
 
+.list-section-item {
+  width: 270px;
+}
+
 .list-section-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -253,6 +257,11 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 
+.team-info {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .team-name {
   font-weight: 500;
   font-size: 16px;
@@ -260,7 +269,6 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-title-color);
-  padding-top: 30px;
   padding-bottom: 10px;
 }
 
@@ -270,7 +278,6 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
-  padding-bottom: 30px;
 }
 
 /*--------------------FOOTER-----------------------*/
@@ -332,7 +339,7 @@ body {
   padding-top: 94px;
   margin-bottom: 50px;
   display: flex;
-  margin-left: 295px;
+  justify-content: center;
 }
 
 .list-portfolio-btn:not(:last-child) {
@@ -351,13 +358,13 @@ body {
 .list-work {
   display: flex;
   flex-wrap: wrap;
+  padding-bottom: 94px;
 }
 
 .work {
   width: 370px;
   height: 404px;
   border: 1px solid #eeeeee;
-  margin-bottom: 30px;
 }
 
 .work:not(:nth-child(3n + 3)) {
